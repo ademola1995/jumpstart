@@ -14,19 +14,11 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    
-<script>
-  $(document).ready(function(){
-    $('carousel').slick({
-      setting-name: setting-value
-    });
-  });
-      
-</script>
 
 
     <title>Jumpstart</title>
   </head>
+  <body>
   <!---Navigation section-->
   
   <nav class="navbar navbar-default navbar navbar-fixed-top">
@@ -50,7 +42,7 @@
       
   </nav>
   <!-----Mid section--->
-    <div class="carousel slick-initalized slick-slider"></div>
+    <div class="carousel slick-initalized slick-slider">
        <div class="jumbotron jumbotron-fluid"> 
 
        <div class="container text-center"> 
@@ -196,7 +188,28 @@
 
 </div>
 
-  <body>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel slick-initalized slick-slider').slick({
+          setting-name: setting-value
+        });
+      });
+    </script>
+
+</body>
+</html>
+
     
   
 
@@ -225,16 +238,6 @@
     
     
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <script type="text/javascript" src="./main.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-</body>
-</html>
-        
-        
+   
+
+   
