@@ -13,13 +13,13 @@ $(document).ready(function(){
 
 
 
-var  scroll = 0;
- $(window) .scroll(function (){
-    Var scrollTop = $(this) .$scrollTop();
-if (scroll > scrollTop + 50){
-    var top = $('.navbar') .navbar(height);
-}
+//var  scroll = 0;
+ //$(window) .scroll(function (){
+   // Var scrollTop = $(this) .$scrollTop();
+//if (scroll > scrollTop + 50){
+   // var top = $('.navbar') .navbar(height);
+//}
   
 
- }
+ //}
     
