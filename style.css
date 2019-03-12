@@ -10,7 +10,13 @@ h1{
     justify-content:center;
     font-size:7.1rem;
     font-family:Monoton;
+
 }
+
+
+@media only screen and (min-width: 400px) {
+      h1 {font-size:2.5rem};
+  }
 
 .lead{
     display:flex;
