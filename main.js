@@ -8,3 +8,17 @@ $(document).ready(function(){
       pauseOnFocus: false,
       pauseOnHover: false,
     });
+
+
+
+
+var  scroll = 0;
+ $(window) .scroll(function (){
+    Var scrollTop = $(this) .$scrollTop();
+if (y=x>50){
+    var top = $('.navbar') .navbar(height);
+}
+  
+
+ }
+    

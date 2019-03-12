@@ -46,21 +46,21 @@ h1{
 
 /* Mid section stylin */
 
-.jumbotron-flowers{
-    background-image:url()
+.jumbotron-beer{
+    background-image:url(./jumpstart_resources/images/jumbotron-beer.jpg);
+}
+
+.jumbotron-duffel{
+    background-image:url(./jumpstart_resources/images/jumbotron-duffel.jpg);
 }
 
 .jumbotron-flowers{
-    background-image:url()
-}
-
-.jumbotron-flowers{
-    background-image:url()
+    background-image:url(./jumpstart_resources/images/jumbotron-flowers.jpg);
 }
 
 
-.jumbotron-flowers{
-    background-image:url()
+.jumbotron-bike{
+    background-image:url(./jumpstart_resources/images/jumbotron-bike.jpg);
 }
 
 
