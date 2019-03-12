@@ -47,20 +47,20 @@ h1{
 /* Mid section stylin */
 
 .jumbotron-beer{
-    background-image:url(./jumpstart_resources/images/jumbotron-beer.jpg);
+    background-image:url('./jumpstart_resources/images/jumbotron-beer.jpg');
 }
 
 .jumbotron-duffel{
-    background-image:url(./jumpstart_resources/images/jumbotron-duffel.jpg);
+    background-image:url('./jumpstart_resources/images/jumbotron-duffel.jpg');
 }
 
 .jumbotron-flowers{
-    background-image:url(./jumpstart_resources/images/jumbotron-flowers.jpg);
+    background-image:url('./jumpstart_resources/images/jumbotron-flowers.jpg');
 }
 
 
 .jumbotron-bike{
-    background-image:url(./jumpstart_resources/images/jumbotron-bike.jpg);
+    background-image:url('./jumpstart_resources/images/jumbotron-bike.jpg');
 }
 
 

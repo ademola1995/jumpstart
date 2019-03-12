@@ -15,7 +15,7 @@ $(document).ready(function(){
 var  scroll = 0;
  $(window) .scroll(function (){
     Var scrollTop = $(this) .$scrollTop();
-if (y=x>50){
+if (scroll > scrollTop + 50){
     var top = $('.navbar') .navbar(height);
 }
   
