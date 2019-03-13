@@ -13,19 +13,19 @@ $(document).ready(function(){
 
 
 
-var  $scrollDist = 0;
- $(window).scroll(function (){
-    Var $scrollTop = $(this).$scrollTop();
-if ($scrollDist > $scrollTop + 50){
-  var heightTop = $('.navbar').navbar('height');
-  $('.navbar').animate({top: '-' + heightTop}, 150);
-  $scrollDist = $scrollTop;
-  }elseif($scrollDist - $scrollTop > 50 ){
-    $('.navbar') .animate({top:'0px'},150);
-    $scrollDist = $scrollTop;
+ //var  $scrollDist = 0;
+  //$(window).scroll(function (){
+    //var $scrollTop = $(this).$scrollTop();
+//if ($scrollDist > $scrollTop + 50){
+  //var heightTop = $('.navbar').navbar('height');
+  //$('.navbar').animate({top: '-' + heightTop}, 150);
+ // $scrollDist = $scrollTop;
+  //} else if($scrollDist - $scrollTop > 50 ){
+   // $('.navbar') .animate({top:'0px'},150);
+    //$scrollDist = $scrollTop;
     
-  }
+  //}
     
-  }
-});
+  //});
+//});
     
