@@ -19,7 +19,13 @@ var  $scrollDist = 0;
 if ($scrollDist > $scrollTop + 50){
   var heightTop = $('.navbar').navbar('height');
   $('.navbar').animate({top: '-' + heightTop}, 150);
-}
-  
- }
+  $scrollDist = $scrollTop;
+  }elseif($scrollDist - $scrollTop > 50 ){
+    $('.navbar') .animate({top:'0px'},150);
+    $scrollDist = $scrollTop;
+    
+  }
+    
+  }
+});
     
