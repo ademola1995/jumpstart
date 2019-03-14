@@ -5,19 +5,29 @@
 
 
 h1{
-    text-shadow:3px 3px grey;
+    text-shadow:2px 2px grey;
     display:flex;
     justify-content:center;
     font-size:7.1rem;
     font-family:Monoton;
+    color:white;
 
 }
 
 
 @media only screen and (min-width: 400px) {
-      h1 {font-size:2.5rem};
+      h1 {font-size:2.5rem;
+         color:white;
+    
+    }
+      
+      
   }
 
+
+  p{
+      color:white;
+  }
 .lead{
     display:flex;
     justify-content: center;

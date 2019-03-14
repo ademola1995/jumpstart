@@ -1,31 +1,28 @@
 $(document).ready(function(){
-    // Jumbotron background and text scroll every 4s with Slick plug-in
+  
     $('.carousel').slick({
-      autoplay: true,
+      slidesToScroll:1,
+     autoplay: true,
       autoplaySpeed: 4000,
       arrows: false,
-      draggable: false,
+    draggable: false,
       pauseOnFocus: false,
-      pauseOnHover: false,
+     pauseOnHover: false,
     });
    
 
 
-
-
- var  $scrollDist = 0;
+var  $scrollDist = 0;
   $(window).scroll(function (){
     var $scrollTop = $(this).$scrollTop();
-if ($scrollDist > $scrollTop + 50){
- var heightTop = $('.navbar').navbar('height');
+if ($scrollDist - $scrollTop > 50){
+ var heightTop = $('.navbar').css('height');
   $('.navbar').animate({top: '-' + heightTop}, 150);
-  $scrollDist = $scrollTop;
+ $scrollDist = $scrollTop;
   } else if($scrollDist - $scrollTop > 50 ){
     $('.navbar') .animate({top:'0px'},150);
     $scrollDist = $scrollTop;
     
-  }
-    
-
+}
 });
 });  
